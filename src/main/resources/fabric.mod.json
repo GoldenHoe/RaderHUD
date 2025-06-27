@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "radarhud",
+  "version": "1.0.0",
+  "name": "Radar HUD",
+  "description": "Displays a modern fighter jet-style radar lock-on HUD with target prediction.",
+  "authors": ["YourName"],
+  "contact": {
+    "sources": "https://github.com/yourname/radarhud"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.radarhud.RadarHUDMod"
+    ],
+    "client": [
+      "com.example.radarhud.RadarHUDMod"
+    ]
+  },
+  "depends": {
+    "minecraft": "1.21.1",
+    "fabricloader": ">=0.15.0",
+    "fabric": "*"
+  }
+}
